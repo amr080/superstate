@@ -1,0 +1,2 @@
+import{x as a}from"../chunks/BvJ784Dc.js";(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},d=new e.Error().stack;d&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[d]="0d57a44c-7283-49ab-806a-c5323848b971",e._sentryDebugIdIdentifier="sentry-dbid-0d57a44c-7283-49ab-806a-c5323848b971")}catch{}})();export{a as start};
+//# sourceMappingURL=start.BFIJip2Z.js.map
