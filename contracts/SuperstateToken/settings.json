@@ -1,0 +1,42 @@
+{
+	"remappings": [
+		"ds-test/=lib/forge-std/lib/ds-test/src/",
+		"erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+		"forge-std/=lib/forge-std/src/",
+		"openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/",
+		"openzeppelin-contracts-v4/=lib/openzeppelin-contracts-v4/",
+		"openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+		"@openzeppelin/contracts-upgradeable/=lib/onchain-redemptions/lib/openzeppelin-contracts-upgradeable/contracts/",
+		"@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+		"chainlink/=lib/onchain-redemptions/lib/chainlink/contracts/",
+		"halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+		"onchain-redemptions/=lib/onchain-redemptions/",
+		"openzeppelin-contracts-upgradable/=lib/onchain-redemptions/lib/openzeppelin-contracts-upgradable/",
+		"ustb/=lib/onchain-redemptions/lib/ustb/"
+	],
+	"optimizer": {
+		"enabled": false,
+		"runs": 200
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "ipfs",
+		"appendCBOR": true
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "cancun",
+	"viaIR": false,
+	"libraries": {}
+}
